@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <base href="../../" />
+    <link rel="stylesheet" href="dmdoc.css" />
+    <title>&#x2F;datum&#x2F;antagonist&#x2F;vassal - &#x2F;tg&#x2F; Station 13</title>
+</head>
+<body>
+<header>
+    <a href="index.html">&#x2F;tg&#x2F; Station 13</a> -
+    <a href="index.html#modules">Modules</a> -
+    <a href="index.html#types">Types</a>
+ &mdash; <a href="datum/antagonist/vassal.html#var">Var Details</a> - <a href="datum/antagonist/vassal.html#proc">Proc Details</a></header>
+<main>
+<h1>vassal <aside>/<a href="datum.html">datum</a>/<a href="datum/antagonist.html">antagonist</a>/<a href="datum/antagonist/vassal.html">vassal</a></aside>
+        
+    
+            <a href="https://github.com/fulpstation/fulpstation/blob/41fc62371428a4f669418579779f946dd181782b/fulp_modules/features/antagonists/bloodsuckers/code/antagonists/vassal_datum.dm#L6">
+        <img src="git.png" width="16" height="16" title="fulp_modules&#x2F;features&#x2F;antagonists&#x2F;bloodsuckers&#x2F;code&#x2F;antagonists&#x2F;vassal_datum.dm 6"/></a></h1>
+
+<table class="summary" cellspacing="0"><tr><td colspan="2"><h2>Vars</h2></td></tr>
+            <tr><th><a href="datum/antagonist/vassal.html#var/favorite_vassal">favorite_vassal</a></th><td>The favorite vassal gets unique features, and Ventrue can upgrade theirs</td></tr>
+            <tr><th><a href="datum/antagonist/vassal.html#var/master">master</a></th><td>The Master Bloodsucker's antag datum.</td></tr>
+            <tr><th><a href="datum/antagonist/vassal.html#var/powers">powers</a></th><td>List of all Purchased Powers, like Bloodsuckers.</td></tr>
+            <tr><th><a href="datum/antagonist/vassal.html#var/temporary_vassal">temporary_vassal</a></th><td>is this vassal temporary?</td></tr>
+            <tr><th><a href="datum/antagonist/vassal.html#var/vassal_level">vassal_level</a></th><td>Bloodsucker levels, but for Vassals.</td></tr><tr><td colspan="2"><h2>Procs</h2></td></tr>
+            <tr><th><a href="datum/antagonist/vassal.html#proc/BuyPower">BuyPower</a></th><td>Used when your Master teaches you a new Power.</td></tr>
+            <tr><th><a href="datum/antagonist/vassal.html#proc/farewell">farewell</a></th><td>Message told to your Master.</td></tr>
+            <tr><th><a href="datum/antagonist/vassal.html#proc/make_favorite">make_favorite</a></th><td>Message told to your (former) Master.
+Called when we are made into the Favorite Vassal</td></tr>
+            <tr><th><a href="datum/antagonist/vassal.html#proc/on_mindshield">on_mindshield</a></th><td>This is called when the antagonist is successfully mindshielded.</td></tr>
+            <tr><th><a href="datum/antagonist/vassal.html#proc/on_removal">on_removal</a></th><td>Enslave them to their Master
+Give Recuperate Power
+Give Objectives
+Give Vampire Language &amp; Hud</td></tr>
+            <tr><th><a href="datum/antagonist/vassal.html#proc/set_vassal_level">set_vassal_level</a></th><td>Set the Vassal's rank to their Bloodsucker level</td></tr></table>
+    <h2 id="var">Var Details</h2><h3 id="var/favorite_vassal"><aside class="declaration">var </aside>favorite_vassal
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/fulpstation/fulpstation/blob/41fc62371428a4f669418579779f946dd181782b/fulp_modules/features/antagonists/bloodsuckers/code/antagonists/vassal_datum.dm#L21">
+        <img src="git.png" width="16" height="16" title="fulp_modules&#x2F;features&#x2F;antagonists&#x2F;bloodsuckers&#x2F;code&#x2F;antagonists&#x2F;vassal_datum.dm 21"/></a></h3>
+        <p>The favorite vassal gets unique features, and Ventrue can upgrade theirs</p><h3 id="var/master"><aside class="declaration">var </aside>master
+            <aside>&ndash; /<a href="datum.html">datum</a>/<a href="datum/antagonist.html">antagonist</a>/<a href="datum/antagonist/bloodsucker.html">bloodsucker</a></aside>
+        
+    
+            <a href="https://github.com/fulpstation/fulpstation/blob/41fc62371428a4f669418579779f946dd181782b/fulp_modules/features/antagonists/bloodsuckers/code/antagonists/vassal_datum.dm#L17">
+        <img src="git.png" width="16" height="16" title="fulp_modules&#x2F;features&#x2F;antagonists&#x2F;bloodsuckers&#x2F;code&#x2F;antagonists&#x2F;vassal_datum.dm 17"/></a></h3>
+        <p>The Master Bloodsucker's antag datum.</p><h3 id="var/powers"><aside class="declaration">var </aside>powers
+            <aside>&ndash; /list/datum/action</aside>
+        
+    
+            <a href="https://github.com/fulpstation/fulpstation/blob/41fc62371428a4f669418579779f946dd181782b/fulp_modules/features/antagonists/bloodsuckers/code/antagonists/vassal_datum.dm#L19">
+        <img src="git.png" width="16" height="16" title="fulp_modules&#x2F;features&#x2F;antagonists&#x2F;bloodsuckers&#x2F;code&#x2F;antagonists&#x2F;vassal_datum.dm 19"/></a></h3>
+        <p>List of all Purchased Powers, like Bloodsuckers.</p><h3 id="var/temporary_vassal"><aside class="declaration">var </aside>temporary_vassal
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/fulpstation/fulpstation/blob/41fc62371428a4f669418579779f946dd181782b/fulp_modules/features/antagonists/bloodsuckers/code/antagonists/vassal_datum.dm#L25">
+        <img src="git.png" width="16" height="16" title="fulp_modules&#x2F;features&#x2F;antagonists&#x2F;bloodsuckers&#x2F;code&#x2F;antagonists&#x2F;vassal_datum.dm 25"/></a></h3>
+        <p>is this vassal temporary?</p><h3 id="var/vassal_level"><aside class="declaration">var </aside>vassal_level
+            <aside>&ndash; </aside>
+        
+    
+            <a href="https://github.com/fulpstation/fulpstation/blob/41fc62371428a4f669418579779f946dd181782b/fulp_modules/features/antagonists/bloodsuckers/code/antagonists/vassal_datum.dm#L23">
+        <img src="git.png" width="16" height="16" title="fulp_modules&#x2F;features&#x2F;antagonists&#x2F;bloodsuckers&#x2F;code&#x2F;antagonists&#x2F;vassal_datum.dm 23"/></a></h3>
+        <p>Bloodsucker levels, but for Vassals.</p><h2 id="proc">Proc Details</h2><h3 id="proc/BuyPower"><aside class="declaration">proc </aside>BuyPower<aside>(/<a href="datum.html">datum</a>/<a href="datum/action.html">action</a>/<a href="datum/action/bloodsucker.html">bloodsucker</a>/power) 
+        
+    
+            <a href="https://github.com/fulpstation/fulpstation/blob/41fc62371428a4f669418579779f946dd181782b/fulp_modules/features/antagonists/bloodsuckers/code/antagonists/vassal_datum.dm#L191">
+        <img src="git.png" width="16" height="16" title="fulp_modules&#x2F;features&#x2F;antagonists&#x2F;bloodsuckers&#x2F;code&#x2F;antagonists&#x2F;vassal_datum.dm 191"/></a></aside>
+        </h3>
+        <p>Used when your Master teaches you a new Power.</p><h3 id="proc/farewell"><aside class="parent"><a title="/datum/antagonist" href="datum/antagonist.html#proc/farewell">&uarr;</a></aside>farewell<aside>() 
+        
+    
+            <a href="https://github.com/fulpstation/fulpstation/blob/41fc62371428a4f669418579779f946dd181782b/fulp_modules/features/antagonists/bloodsuckers/code/antagonists/vassal_datum.dm#L145">
+        <img src="git.png" width="16" height="16" title="fulp_modules&#x2F;features&#x2F;antagonists&#x2F;bloodsuckers&#x2F;code&#x2F;antagonists&#x2F;vassal_datum.dm 145"/></a></aside>
+        </h3>
+        <p>Message told to your Master.</p><h3 id="proc/make_favorite"><aside class="declaration">proc </aside>make_favorite<aside>(/<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/master) 
+        
+    
+            <a href="https://github.com/fulpstation/fulpstation/blob/41fc62371428a4f669418579779f946dd181782b/fulp_modules/features/antagonists/bloodsuckers/code/antagonists/vassal_datum.dm#L156">
+        <img src="git.png" width="16" height="16" title="fulp_modules&#x2F;features&#x2F;antagonists&#x2F;bloodsuckers&#x2F;code&#x2F;antagonists&#x2F;vassal_datum.dm 156"/></a></aside>
+        </h3>
+        <p>Message told to your (former) Master.
+Called when we are made into the Favorite Vassal</p><h3 id="proc/on_mindshield"><aside class="parent"><a title="/datum/antagonist" href="datum/antagonist.html#proc/on_mindshield">&uarr;</a></aside>on_mindshield<aside>(/<a href="mob.html">mob</a>/implanter, /<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/mob_override) 
+        
+    
+            <a href="https://github.com/fulpstation/fulpstation/blob/41fc62371428a4f669418579779f946dd181782b/fulp_modules/features/antagonists/bloodsuckers/code/antagonists/vassal_datum.dm#L69">
+        <img src="git.png" width="16" height="16" title="fulp_modules&#x2F;features&#x2F;antagonists&#x2F;bloodsuckers&#x2F;code&#x2F;antagonists&#x2F;vassal_datum.dm 69"/></a></aside>
+        </h3>
+        <p>This is called when the antagonist is successfully mindshielded.</p><h3 id="proc/on_removal"><aside class="parent"><a title="/datum/antagonist" href="datum/antagonist.html#proc/on_removal">&uarr;</a></aside>on_removal<aside>() 
+        
+    
+            <a href="https://github.com/fulpstation/fulpstation/blob/41fc62371428a4f669418579779f946dd181782b/fulp_modules/features/antagonists/bloodsuckers/code/antagonists/vassal_datum.dm#L104">
+        <img src="git.png" width="16" height="16" title="fulp_modules&#x2F;features&#x2F;antagonists&#x2F;bloodsuckers&#x2F;code&#x2F;antagonists&#x2F;vassal_datum.dm 104"/></a></aside>
+        </h3>
+        <p>Enslave them to their Master
+Give Recuperate Power
+Give Objectives
+Give Vampire Language &amp; Hud</p><h3 id="proc/set_vassal_level"><aside class="declaration">proc </aside>set_vassal_level<aside>(/<a href="mob.html">mob</a>/<a href="mob/living.html">living</a>/<a href="mob/living/carbon.html">carbon</a>/<a href="mob/living/carbon/human.html">human</a>/target) 
+        
+    
+            <a href="https://github.com/fulpstation/fulpstation/blob/41fc62371428a4f669418579779f946dd181782b/fulp_modules/features/antagonists/bloodsuckers/code/antagonists/vassal_datum.dm#L168">
+        <img src="git.png" width="16" height="16" title="fulp_modules&#x2F;features&#x2F;antagonists&#x2F;bloodsuckers&#x2F;code&#x2F;antagonists&#x2F;vassal_datum.dm 168"/></a></aside>
+        </h3>
+        <p>Set the Vassal's rank to their Bloodsucker level</p></main>
+<footer>
+    tgstation.dme
+    <a href="https://github.com/fulpstation/fulpstation/tree/41fc62371428a4f669418579779f946dd181782b">41fc623</a>
+        (master) &mdash; <a href="https://github.com/SpaceManiac/SpacemanDMM/blob/master/src/dmdoc/README.md">dmdoc 1.4.1</a></footer>
+</body>
+</html>
